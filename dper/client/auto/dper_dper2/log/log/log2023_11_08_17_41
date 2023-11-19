@@ -1,0 +1,326 @@
+[2023-11-08 17:41:00] [info] consensusPromoter.go:229 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: Current Consensus Node (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) has receive transaction (count:1) from other consensus node (5789f96b2a695001646acd26068725ee0933fa06) 
+
+[2023-11-08 17:41:00] [info] consensusPromoter.go:253 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: Current Consensus Node (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) has receive pre-prepare Message from Leader (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999) within group (net0)
+
+[2023-11-08 17:41:00] [info] consensusPromoter.go:256 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Waiting for creation....
+
+[2023-11-08 17:41:00] [info] transactionPool.go:195 dpchain/core/eles.(*TransactionPool).QuickFindTxs 即将被添加的交易 ： df68ae24ef8745f5641333fff3981df4e742ff106da94fc7e0cb044a944f4aa0
+
+[2023-11-08 17:41:00] [info] transactionPool.go:209 dpchain/core/eles.(*TransactionPool).QuickFindTxs QuickFind获取的结果, 第0条交易： df68ae24ef8745f5641333fff3981df4e742ff106da94fc7e0cb044a944f4aa0
+
+[2023-11-08 17:41:00] [info] consensusPromoter.go:302 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: The new roundHandler (roundID:8b574c632e653e5be433404a88f7e0b37b0a9628244a3f753b341e3025ad12f3) has been created and being running
+
+[2023-11-08 17:41:00] [info] blockChain.go:537 dpchain/core/eles.(*BlockChain).StaleCheck [Block Chain] StaleCheck 被调用
+
+[2023-11-08 17:41:00] [info] peer.go:76 dpchain/core/separator.(*peer).sendMsg Separator: Send msg to peer: d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999, msgcode: 2
+
+[2023-11-08 17:41:00] [info] peer.go:76 dpchain/core/separator.(*peer).sendMsg Separator: Send msg to peer: 30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf, msgcode: 2
+
+[2023-11-08 17:41:00] [info] roundHandler.go:286 dpchain/core/consensus.(*roundHandler).SendPrepareMsg [TPBFT Consensus] Lower Channel: Current Consensus Node (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) has broadcast prepareMsg within roundID (8b574c632e653e5be433404a88f7e0b37b0a9628244a3f753b341e3025ad12f3)
+
+[2023-11-08 17:41:00] [info] roundHandler.go:161 dpchain/core/consensus.(*roundHandler).Start [TPBFT Consensus] Lower Channel: roudHandler with round ID: 8b574c632e653e5be433404a88f7e0b37b0a9628244a3f753b341e3025ad12f3 starts to running!
+
+[2023-11-08 17:41:00] [info] roundHandler.go:200 dpchain/core/consensus.(*roundHandler).Do [TPBFT Consensus] Lower Channel: Node (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) has completed the prepare phase consensus, validOrder:[1]
+
+[2023-11-08 17:41:00] [info] tpbt_common.go:277 dpchain/core/consensus.(*Ctpbft).TidyTransactions [TPBFT Consensus] Ctpbft: Leader (5789f96b2a695001646acd26068725ee0933fa06) Tidy candidateBlock successfully, blockID:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3, txSum:1
+
+[2023-11-08 17:41:00] [info] peer.go:76 dpchain/core/separator.(*peer).sendMsg Separator: Send msg to peer: d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999, msgcode: 2
+
+[2023-11-08 17:41:00] [info] roundHandler.go:238 dpchain/core/consensus.(*roundHandler).Do [TPBFT Consensus] Lower Channel: Node (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) has completed the tidy phase consensus and has sent CommitMsg to the Leader (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999)
+
+[2023-11-08 17:41:00] [info] roundHandler.go:170 dpchain/core/consensus.(*roundHandler).Stop.func1 [TPBFT Consensus] Lower Channel: roudHandler with round ID: 8b574c632e653e5be433404a88f7e0b37b0a9628244a3f753b341e3025ad12f3 stop!
+
+[2023-11-08 17:41:00] [info] tpbt_common.go:364 dpchain/core/consensus.(*Ctpbft).SubmitBlock [TPBFT Consensus] Ctpbft: Block: e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3 is submitted upto UpperChannel, Version: 0000000000000000000000000000000000000000000000000000000000000000, Nonce: 0, txSum: 1
+
+[2023-11-08 17:41:00] [info] roundHandler.go:259 dpchain/core/consensus.(*roundHandler).Do [TPBFT Consensus] Lower Channel: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) has completed the commit phase consensus, Complete LowerChannel consensus
+
+[2023-11-08 17:41:00] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:01] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] synchronization.go:451 dpchain/blockSync.(*SyncProtocal).syncer Block synchronization: Start block synchronization with node (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999)...  ---  local node currentHeight (0), remote node currentHeight (1)
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] downloader.go:150 dpchain/blockSync/downloader.(*Downloader).Synchronise Block synchronization downloader: Attempting synchronise with node (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999)... RemoteCurrentVersion (e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3) RemoteCurrentHeight (1)
+
+[2023-11-08 17:41:02] [info] downloader.go:229 dpchain/blockSync/downloader.(*Downloader).FindAncestor Block synchronization downloader: Attempting to query the common ancestor block with node (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999) ...
+
+[2023-11-08 17:41:02] [info] blockChain.go:397 dpchain/core/eles.(*BlockChain).GetCurrentBlock [Block Chain] GetCurrentBlock 被调用
+
+[2023-11-08 17:41:02] [info] blockChain.go:286 dpchain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] blockChain.go:309 dpchain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2023-11-08 17:41:02] [info] downloader.go:250 dpchain/blockSync/downloader.(*Downloader).FindAncestor @@@@@@@@@@@@@@@@@@  请求方：本地头区块:0 , 同步起始区块:0
+
+[2023-11-08 17:41:02] [info] synchronization.go:270 dpchain/blockSync.(*SyncProtocal).handleMsg Block synchronization:  Receive BlockHashesMsg from remote peer (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999), the number of BlockHashes is (1)
+
+[2023-11-08 17:41:02] [info] downloader.go:298 dpchain/blockSync/downloader.(*Downloader).FindAncestor @@@@@@@@@@@@@@@@@@  处理后起始区块:0,请求个数:1
+
+[2023-11-08 17:41:02] [info] downloader.go:199 dpchain/blockSync/downloader.(*Downloader).syncWithPeer Block synchronization downloader: Fetch common ancestor block is succeed, ancestor blockNumber (0), Number of blocks (1) waiting for synchronization
+
+[2023-11-08 17:41:02] [info] blockChain.go:397 dpchain/core/eles.(*BlockChain).GetCurrentBlock [Block Chain] GetCurrentBlock 被调用
+
+[2023-11-08 17:41:02] [info] blockChain.go:286 dpchain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] blockChain.go:309 dpchain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2023-11-08 17:41:02] [info] downloader.go:323 dpchain/blockSync/downloader.(*Downloader).fetchBlocks Block synchronization downloader: Start to fetch (1) blocks by remote node (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999) from block (0) ...
+
+[2023-11-08 17:41:02] [info] blockChain.go:320 dpchain/core/eles.(*BlockChain).FindVersion [Block Chain] FindVersion 被调用
+
+[2023-11-08 17:41:02] [info] blockChain.go:181 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 开始启动, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3
+
+[2023-11-08 17:41:02] [info] blockChain.go:186 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 进行新区块的插入, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3
+
+[2023-11-08 17:41:02] [info] blockChain.go:192 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 完成新区块的插入, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3
+
+[2023-11-08 17:41:02] [info] blockChain.go:194 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 准备执行区块内的交易, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3
+
+[2023-11-08 17:41:02] [info] blockChain.go:202 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 完成对区块内交易的执行, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3
+
+[2023-11-08 17:41:02] [info] blockChain.go:217 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 准备更新交易过滤器, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3
+
+[2023-11-08 17:41:02] [info] blockChain.go:221 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 完成对交易过滤器的更新, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3
+
+[2023-11-08 17:41:02] [info] blockChain.go:231 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 准备更新区块链状态量, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3 , block Height:1 
+
+[2023-11-08 17:41:02] [info] blockChain.go:240 dpchain/core/eles.(*BlockChain).InsertChain [Block Chain] InsertChain 完成对区块链状态量的更新, block Hash:e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3 , block Height:1 
+
+[2023-11-08 17:41:02] [info] downloader.go:360 dpchain/blockSync/downloader.(*Downloader).fetchBlocks Block synchronization downloader: Block synchronization succeeded, Current local blockchain status: CurrentHeight (1), CurrentVersion (e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3)
+
+[2023-11-08 17:41:02] [info] downloader.go:154 dpchain/blockSync/downloader.(*Downloader).Synchronise Block synchronization downloader: Block Synchronisation with node (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999) has been completed!
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:02] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:03] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:04] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:05] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:06] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:07] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:08] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:09] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:10] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:11] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:11] [info] consensusPromoter.go:249 dpchain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2023-11-08 17:41:11] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:20132)的加密handshake与协议handshake!
+
+[2023-11-08 17:41:11] [info] server.go:602 dpchain/p2p/server.(*Server).listenLoop 接收到来自节点 127.0.0.1:61063的p2p连接请求
+
+[2023-11-08 17:41:11] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:61063)的加密handshake与协议handshake!
+
+[2023-11-08 17:41:11] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:61063)的加密handshake!
+
+[2023-11-08 17:41:11] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:61063 
+
+[2023-11-08 17:41:11] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20132)的加密handshake!
+
+[2023-11-08 17:41:11] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:20132 
+
+[2023-11-08 17:41:11] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn inbound conn bc84b5d09f1aa914 127.0.0.1:61063 failed checkpoint posthandshake: Connected to self
+[2023-11-08 17:41:11] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn dyn dial conn bc84b5d09f1aa914 127.0.0.1:20132 failed checkpoint posthandshake: Connected to self
+[2023-11-08 17:41:43] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:20132)的加密handshake与协议handshake!
+
+[2023-11-08 17:41:43] [info] server.go:602 dpchain/p2p/server.(*Server).listenLoop 接收到来自节点 127.0.0.1:61135的p2p连接请求
+
+[2023-11-08 17:41:43] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:61135)的加密handshake与协议handshake!
+
+[2023-11-08 17:41:43] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:61135)的加密handshake!
+
+[2023-11-08 17:41:43] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:61135 
+
+[2023-11-08 17:41:43] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn inbound conn bc84b5d09f1aa914 127.0.0.1:61135 failed checkpoint posthandshake: Connected to self
+[2023-11-08 17:41:43] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20132)的加密handshake!
+
+[2023-11-08 17:41:43] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:20132 
+
+[2023-11-08 17:41:43] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn dyn dial conn bc84b5d09f1aa914 127.0.0.1:20132 failed checkpoint posthandshake: Connected to self

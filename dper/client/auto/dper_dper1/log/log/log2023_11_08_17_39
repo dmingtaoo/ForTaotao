@@ -1,0 +1,298 @@
+[2023-11-08 17:39:29] [info] dperClient.go:18 main.main [Dper] Dper Client running in PID: 78348  PPID: 78344 
+
+[2023-11-08 17:39:29] [info] dperCommand.go:43 dpchain/dper/client/commandLine.(*CommandLine).runDperCommand Dper Init: Loading config...,configFile Path:./settings/dperConfig.json
+
+[2023-11-08 17:39:29] [info] backend.go:191 dpchain/dper.NewDper NewDper: Initialize key manager...
+[2023-11-08 17:39:30] [info] backend.go:221 dpchain/dper.NewDper NewDper: Welcome to Dper for the first time, the first account has been automatically generated for you!
+
+[2023-11-08 17:39:30] [info] backend.go:230 dpchain/dper.NewDper NewDper: Complete loading key manager!
+
+[2023-11-08 17:39:30] [info] backend.go:236 dpchain/dper.NewDper NewDper failed: Complete creating dpnet.Node for self: NodeID: d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999 ,NetID: net0 , Role: 2
+
+[2023-11-08 17:39:30] [info] backend.go:238 dpchain/dper.NewDper NewDper: Initialize database...
+[2023-11-08 17:39:30] [info] backend.go:268 dpchain/dper.NewDper NewDper: Complete loading database!
+
+[2023-11-08 17:39:30] [info] backend.go:270 dpchain/dper.NewDper NewDper: Initialize blockchain...
+
+[2023-11-08 17:39:30] [info] blockChain.go:86 dpchain/core/eles.InitBlockChain BlockChain: Hello,First use of DPChain!
+
+[2023-11-08 17:39:30] [info] backend.go:279 dpchain/dper.NewDper NewDper: Complete initializing blockchain!
+
+[2023-11-08 17:39:30] [info] backend.go:281 dpchain/dper.NewDper NewDper: Initialize state manager...
+
+[2023-11-08 17:39:30] [info] backend.go:283 dpchain/dper.NewDper NewDper: Complete initializing state manager
+
+[2023-11-08 17:39:30] [info] backend.go:285 dpchain/dper.NewDper NewDper: Launch contract engine...
+
+[2023-11-08 17:39:30] [info] backend.go:323 dpchain/dper.NewDper NewDper: Contract engine launched
+
+[2023-11-08 17:39:30] [info] backend.go:325 dpchain/dper.NewDper NewDper: Now start net manager...
+
+[2023-11-08 17:39:30] [info] server.go:322 dpchain/p2p/server.(*Server).Start P2P: Prepare for Starting Server...
+
+[2023-11-08 17:39:31] [info] whisper.go:177 dpchain/p2p/whisper.(*Whisper).Start P2P: Whisper started
+
+[2023-11-08 17:39:31] [info] server.go:578 dpchain/p2p/server.(*Server).listenLoop Listening on:127.0.0.1:20131
+[2023-11-08 17:39:31] [info] backend.go:365 dpchain/dper.NewDper NewDper: Net manager hsa started
+
+[2023-11-08 17:39:31] [info] backend.go:367 dpchain/dper.NewDper NewDper: Now construct dper...
+
+[2023-11-08 17:39:31] [info] backend.go:383 dpchain/dper.NewDper NewDper: Succeed in constructing dper
+
+[2023-11-08 17:39:32] [info] server.go:602 dpchain/p2p/server.(*Server).listenLoop 接收到来自节点 127.0.0.1:60687的p2p连接请求
+
+[2023-11-08 17:39:32] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:60687)的加密handshake与协议handshake!
+
+[2023-11-08 17:39:32] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:60687)的加密handshake!
+
+[2023-11-08 17:39:32] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:60687 
+
+[2023-11-08 17:39:32] [info] server.go:650 dpchain/p2p/server.(*Server).setupConn 下面进行协议handshake ,127.0.0.1:60687 
+
+[2023-11-08 17:39:32] [info] server.go:659 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:60687)的协议handshake!
+
+[2023-11-08 17:39:32] [info] server.go:698 dpchain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:6138626630333031646165613737653338353939363563613133326564633362393439333630626132323231373333643066616535336533383337376662346633383664613539383266666631343364663163373730626361656633333934386366393432643765313532366663303262616535386633303864313934626235) (srcIPAddr:127.0.0.1:20131) (destIPAddr:127.0.0.1:60687) 
+
+[2023-11-08 17:39:32] [info] peer.go:309 dpchain/p2p/server.(*Peer).startProtocols Peer a8bf0301daea77e3 127.0.0.1:60687: Starting protocol shh/2
+
+[2023-11-08 17:39:32] [info] peer.go:309 dpchain/p2p/server.(*Peer).startProtocols Peer a8bf0301daea77e3 127.0.0.1:60687: Starting protocol spr/0
+
+[2023-11-08 17:39:32] [info] separator.go:115 dpchain/core/separator.(*Separator).handlePeer 与节点(a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5)进行separator handshake!
+
+[2023-11-08 17:39:32] [info] whisper.go:215 dpchain/p2p/whisper.(*Whisper).handlePeer 与节点 (6138626630333031646165613737653338353939363563613133326564633362393439333630626132323231373333643066616535336533383337376662346633383664613539383266666631343364663163373730626361656633333934386366393432643765313532366663303262616535386633303864313934626235) 进行 whisper handshake!
+
+[2023-11-08 17:39:32] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:20131)的加密handshake与协议handshake!
+
+[2023-11-08 17:39:32] [info] server.go:602 dpchain/p2p/server.(*Server).listenLoop 接收到来自节点 127.0.0.1:60688的p2p连接请求
+
+[2023-11-08 17:39:32] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:60688)的加密handshake与协议handshake!
+
+[2023-11-08 17:39:32] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:20133)的加密handshake与协议handshake!
+
+[2023-11-08 17:39:32] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:20132)的加密handshake与协议handshake!
+
+[2023-11-08 17:39:32] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:60688)的加密handshake!
+
+[2023-11-08 17:39:32] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:60688 
+
+[2023-11-08 17:39:32] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn inbound conn d39ada8946107d90 127.0.0.1:60688 failed checkpoint posthandshake: Connected to self
+[2023-11-08 17:39:32] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20131)的加密handshake!
+
+[2023-11-08 17:39:32] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:20131 
+
+[2023-11-08 17:39:32] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn dyn dial conn d39ada8946107d90 127.0.0.1:20131 failed checkpoint posthandshake: Connected to self
+[2023-11-08 17:39:32] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20132)的加密handshake!
+
+[2023-11-08 17:39:32] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:20132 
+
+[2023-11-08 17:39:32] [info] server.go:650 dpchain/p2p/server.(*Server).setupConn 下面进行协议handshake ,127.0.0.1:20132 
+
+[2023-11-08 17:39:32] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20133)的加密handshake!
+
+[2023-11-08 17:39:32] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:20133 
+
+[2023-11-08 17:39:32] [info] server.go:650 dpchain/p2p/server.(*Server).setupConn 下面进行协议handshake ,127.0.0.1:20133 
+
+[2023-11-08 17:39:32] [info] server.go:659 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20132)的协议handshake!
+
+[2023-11-08 17:39:32] [info] server.go:659 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20133)的协议handshake!
+
+[2023-11-08 17:39:32] [info] server.go:698 dpchain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:6263383462356430396631616139313433653736623739653939613035336538626131383236653238646666343639346434386534366334366134316338613062333932383337393165313632356637663937633330633161343036333964386262393338326136353031633932393531393338383530313430383761353938) (srcIPAddr:127.0.0.1:60690) (destIPAddr:127.0.0.1:20132) 
+
+[2023-11-08 17:39:32] [info] server.go:698 dpchain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:3330663262323861613939656163633564623261616564646233363638626334346530666632656634613134656464663536656536376339636365666364623436343530653033653664343161646263303161643337306136666165626537383538306266663432343637386661353838313231306639313233636164656366) (srcIPAddr:127.0.0.1:60689) (destIPAddr:127.0.0.1:20133) 
+
+[2023-11-08 17:39:32] [info] peer.go:309 dpchain/p2p/server.(*Peer).startProtocols Peer 30f2b28aa99eacc5 127.0.0.1:20133: Starting protocol shh/2
+
+[2023-11-08 17:39:32] [info] peer.go:309 dpchain/p2p/server.(*Peer).startProtocols Peer 30f2b28aa99eacc5 127.0.0.1:20133: Starting protocol spr/0
+
+[2023-11-08 17:39:32] [info] peer.go:309 dpchain/p2p/server.(*Peer).startProtocols Peer 30f2b28aa99eacc5 127.0.0.1:20133: Starting protocol sync/0
+
+[2023-11-08 17:39:32] [info] peer.go:309 dpchain/p2p/server.(*Peer).startProtocols Peer bc84b5d09f1aa914 127.0.0.1:20132: Starting protocol shh/2
+
+[2023-11-08 17:39:32] [info] whisper.go:215 dpchain/p2p/whisper.(*Whisper).handlePeer 与节点 (3330663262323861613939656163633564623261616564646233363638626334346530666632656634613134656464663536656536376339636365666364623436343530653033653664343161646263303161643337306136666165626537383538306266663432343637386661353838313231306639313233636164656366) 进行 whisper handshake!
+
+[2023-11-08 17:39:32] [info] separator.go:115 dpchain/core/separator.(*Separator).handlePeer 与节点(30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf)进行separator handshake!
+
+[2023-11-08 17:39:32] [info] synchronization.go:167 dpchain/blockSync.(*SyncProtocal).handle Block synchronization: Start block synchronization with node (30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf)... LocalHeight (0), LocalVersion (0000000000000000000000000000000000000000000000000000000000000000)
+
+[2023-11-08 17:39:32] [info] peer.go:309 dpchain/p2p/server.(*Peer).startProtocols Peer bc84b5d09f1aa914 127.0.0.1:20132: Starting protocol spr/0
+
+[2023-11-08 17:39:32] [info] whisper.go:215 dpchain/p2p/whisper.(*Whisper).handlePeer 与节点 (6263383462356430396631616139313433653736623739653939613035336538626131383236653238646666343639346434386534366334366134316338613062333932383337393165313632356637663937633330633161343036333964386262393338326136353031633932393531393338383530313430383761353938) 进行 whisper handshake!
+
+[2023-11-08 17:39:32] [info] separator.go:115 dpchain/core/separator.(*Separator).handlePeer 与节点(bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598)进行separator handshake!
+
+[2023-11-08 17:39:32] [info] peer.go:309 dpchain/p2p/server.(*Peer).startProtocols Peer bc84b5d09f1aa914 127.0.0.1:20132: Starting protocol sync/0
+
+[2023-11-08 17:39:32] [info] synchronization.go:167 dpchain/blockSync.(*SyncProtocal).handle Block synchronization: Start block synchronization with node (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598)... LocalHeight (0), LocalVersion (0000000000000000000000000000000000000000000000000000000000000000)
+
+[2023-11-08 17:39:32] [info] peer.go:215 dpchain/blockSync.(*peer).Handshake Block synchronization: Get ResponseMsg from node (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598), RemoteHeight (0)  RemoteVersion (0000000000000000000000000000000000000000000000000000000000000000)
+[2023-11-08 17:39:32] [info] peer.go:215 dpchain/blockSync.(*peer).Handshake Block synchronization: Get ResponseMsg from node (30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf), RemoteHeight (0)  RemoteVersion (0000000000000000000000000000000000000000000000000000000000000000)
+[2023-11-08 17:39:32] [info] downloader.go:133 dpchain/blockSync/downloader.(*Downloader).RegisterPeer Block synchronization Downloader: Register peer (30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf) into Downloader peerSet successfully!
+
+[2023-11-08 17:39:32] [info] downloader.go:133 dpchain/blockSync/downloader.(*Downloader).RegisterPeer Block synchronization Downloader: Register peer (bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598) into Downloader peerSet successfully!
+
+[2023-11-08 17:39:34] [info] whisper.go:277 dpchain/p2p/whisper.(*Whisper).add whisper envelope already cached: 14163b1335fff259f6b45259860930f5f65f6624d07b34079c428172bfe86400
+
+[2023-11-08 17:39:34] [info] whisper.go:277 dpchain/p2p/whisper.(*Whisper).add whisper envelope already cached: 14163b1335fff259f6b45259860930f5f65f6624d07b34079c428172bfe86400
+
+[2023-11-08 17:39:35] [info] whisper.go:277 dpchain/p2p/whisper.(*Whisper).add whisper envelope already cached: 78d01e2db9c1342558b136a53db6533d9ef71616de161fc005baf3a45e8cb192
+
+[2023-11-08 17:39:35] [info] whisper.go:277 dpchain/p2p/whisper.(*Whisper).add whisper envelope already cached: 78d01e2db9c1342558b136a53db6533d9ef71616de161fc005baf3a45e8cb192
+
+[2023-11-08 17:39:35] [info] whisper.go:277 dpchain/p2p/whisper.(*Whisper).add whisper envelope already cached: f5be3f8885d1b896bbf1e9c6b01913152fb74d0724337d511aff3e18d6918f30
+
+[2023-11-08 17:39:40] [info] separator.go:437 dpchain/core/separator.(*Separator).BackPeerGroup 子网:net0 --- 节点:bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598 , 内容(<nil>)
+
+[2023-11-08 17:39:40] [info] separator.go:437 dpchain/core/separator.(*Separator).BackPeerGroup 子网:net0 --- 节点:30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf , 内容(<nil>)
+
+[2023-11-08 17:39:40] [info] separator.go:437 dpchain/core/separator.(*Separator).BackPeerGroup 子网:upper --- 节点:a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5 , 内容(<nil>)
+
+[2023-11-08 17:39:45] [info] separator.go:347 dpchain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598
+
+[2023-11-08 17:39:46] [info] separator.go:355 dpchain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2023-11-08 17:39:46] [info] separator.go:347 dpchain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf
+
+[2023-11-08 17:39:47] [info] separator.go:355 dpchain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf建立静态链接, 节点IP:127.0.0.1 , 端口号:20133
+
+[2023-11-08 17:39:47] [info] separator.go:347 dpchain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5
+
+[2023-11-08 17:39:48] [info] separator.go:355 dpchain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5建立静态链接, 节点IP:127.0.0.1 , 端口号:20130
+
+[2023-11-08 17:39:48] [info] peergroup.go:102 dpchain/core/separator.(*PeerGroup).Start Separator Construct: Peer Group (net0) is started!
+
+[2023-11-08 17:39:48] [info] peergroup.go:102 dpchain/core/separator.(*PeerGroup).Start Separator Construct: Peer Group (upper) is started!
+
+[2023-11-08 17:39:48] [info] separator.go:437 dpchain/core/separator.(*Separator).BackPeerGroup 子网:net0 --- 节点:30f2b28aa99eacc5db2aaeddb3668bc44e0ff2ef4a14eddf56ee67c9ccefcdb46450e03e6d41adbc01ad370a6faebe78580bff424678fa5881210f9123cadecf , 内容(&{[48 242 178 138 169 158 172 197 219 42 174 221 179 102 139 196 78 15 242 239 74 20 237 223 86 238 103 201 204 239 205 180 100 80 224 62 109 65 173 188 1 173 55 10 111 174 190 120 88 11 255 66 70 120 250 88 129 33 15 145 35 202 222 207] 0x1400007f920 0x1400032a0c0 0x1400058e960 {13928212757129223336 3135859043 0x1052e6ae0} 0x140000b8ba0})
+
+[2023-11-08 17:39:48] [info] separator.go:437 dpchain/core/separator.(*Separator).BackPeerGroup 子网:net0 --- 节点:bc84b5d09f1aa9143e76b79e99a053e8ba1826e28dff4694d48e46c46a41c8a0b39283791e1625f7f97c30c1a40639d8bb9382a6501c9295193885014087a598 , 内容(&{[188 132 181 208 159 26 169 20 62 118 183 158 153 160 83 232 186 24 38 226 141 255 70 148 212 142 70 196 106 65 200 160 179 146 131 121 30 22 37 247 249 124 48 193 164 6 57 216 187 147 130 166 80 28 146 149 25 56 133 1 64 135 165 152] 0x1400007f920 0x140000b2d80 0x14000310300 {13928212757129688336 3136324251 0x1052e6ae0} 0x1400057f2c0})
+
+[2023-11-08 17:39:48] [info] separator.go:437 dpchain/core/separator.(*Separator).BackPeerGroup 子网:upper --- 节点:a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5 , 内容(&{[168 191 3 1 218 234 119 227 133 153 101 202 19 46 220 59 148 147 96 186 34 33 115 61 15 174 83 227 131 119 251 79 56 109 165 152 47 255 20 61 241 199 112 188 174 243 57 72 207 148 45 126 21 38 252 2 186 229 143 48 141 25 75 181] 0x1400007f920 0x140004fa480 0x140000b51a0 {13928212756789681336 2796312418 0x1052e6ae0} 0x14000224780})
+
+[2023-11-08 17:39:48] [info] tpbt_common.go:374 dpchain/core/consensus.(*Ctpbft).Start Ctpbft: Common Kind PBFT starts to running, transaction pool: 6370626674
+
+[2023-11-08 17:39:48] [info] orderAgent.go:240 dpchain/core/blockOrdering.(*BlockOrderAgent).respawn [Block Ordering] Protect mode is closed, recovery has finished
+
+[2023-11-08 17:39:48] [info] orderAgent.go:618 dpchain/core/blockOrdering.(*BlockOrderAgent).Start [Block Ordering] Upper Consensus: Leader (d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999) start to run BlockOrderAgent successfully
+
+[2023-11-08 17:39:48] [info] orderAgent.go:206 dpchain/core/blockOrdering.(*BlockOrderAgent).ProcessMessage [Block Ordering] Upper Channel收到来自节点(a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5)的 CODE_INIT Msg
+
+[2023-11-08 17:39:48] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:48] [info] peer.go:76 dpchain/core/separator.(*peer).sendMsg Separator: Send msg to peer: a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5, msgcode: 3
+
+[2023-11-08 17:39:48] [info] orderAgent.go:213 dpchain/core/blockOrdering.(*BlockOrderAgent).ProcessMessage [Block Ordering] Upper Channel完成对来自节点(a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5)的 CODE_INIT Msg的处理
+
+[2023-11-08 17:39:49] [info] orderAgent.go:216 dpchain/core/blockOrdering.(*BlockOrderAgent).ProcessMessage [Block Ordering] Upper Channel收到来自节点(a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5)的 CODE_SYNC Msg
+
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] orderAgent.go:223 dpchain/core/blockOrdering.(*BlockOrderAgent).ProcessMessage [Block Ordering] Upper Channel完成对来自节点(a8bf0301daea77e3859965ca132edc3b949360ba2221733d0fae53e38377fb4f386da5982fff143df1c770bcaef33948cf942d7e1526fc02bae58f308d194bb5)的 CODE_SYNC Msg的处理
+
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:49] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:50] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:51] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:52] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:53] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:54] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:55] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:56] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:57] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:58] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)
+[2023-11-08 17:39:59] [info] tpbt_common.go:561 dpchain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: No transaction without timeout was retrieved from txPool (6370626674)

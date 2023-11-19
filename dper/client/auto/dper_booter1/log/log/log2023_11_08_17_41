@@ -1,0 +1,38 @@
+[2023-11-08 17:41:01] [info] peer.go:76 dpchain/core/separator.(*peer).sendMsg Separator: Send msg to peer: d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999, msgcode: 3
+
+[2023-11-08 17:41:01] [info] orderServer.go:430 dpchain/core/blockOrdering.(*BlockOrderServer).tryLaunchNewRound [Block Ordering] A new next message is generated and sent, version: 0000000000000000000000000000000000000000000000000000000000000000, height: 0, BlockID: e6d662f07a906fe3cfb27c1169c4aa6d52df542901237fa121c27a107d6854f3
+
+[2023-11-08 17:41:01] [info] peer.go:76 dpchain/core/separator.(*peer).sendMsg Separator: Send msg to peer: d39ada8946107d903d3afe8e23f25b379366566dc94036cc1cd3fe787e89c163e3c0adcbc7c14e2d21113b78e4d95365eca6a83b38b62b6deb97841187425999, msgcode: 3
+
+[2023-11-08 17:41:09] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:20130)的加密handshake与协议handshake!
+
+[2023-11-08 17:41:09] [info] server.go:602 dpchain/p2p/server.(*Server).listenLoop 接收到来自节点 127.0.0.1:61055的p2p连接请求
+
+[2023-11-08 17:41:09] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:61055)的加密handshake与协议handshake!
+
+[2023-11-08 17:41:09] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:61055)的加密handshake!
+
+[2023-11-08 17:41:09] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:61055 
+
+[2023-11-08 17:41:09] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20130)的加密handshake!
+
+[2023-11-08 17:41:09] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn inbound conn a8bf0301daea77e3 127.0.0.1:61055 failed checkpoint posthandshake: Connected to self
+[2023-11-08 17:41:09] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:20130 
+
+[2023-11-08 17:41:09] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn dyn dial conn a8bf0301daea77e3 127.0.0.1:20130 failed checkpoint posthandshake: Connected to self
+[2023-11-08 17:41:41] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:20130)的加密handshake与协议handshake!
+
+[2023-11-08 17:41:41] [info] server.go:602 dpchain/p2p/server.(*Server).listenLoop 接收到来自节点 127.0.0.1:61132的p2p连接请求
+
+[2023-11-08 17:41:41] [info] server.go:616 dpchain/p2p/server.(*Server).setupConn p2pServer等待完成与目标节点(127.0.0.1:61132)的加密handshake与协议handshake!
+
+[2023-11-08 17:41:41] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:61132)的加密handshake!
+
+[2023-11-08 17:41:41] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:61132 
+
+[2023-11-08 17:41:41] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn inbound conn a8bf0301daea77e3 127.0.0.1:61132 failed checkpoint posthandshake: Connected to self
+[2023-11-08 17:41:41] [info] server.go:636 dpchain/p2p/server.(*Server).setupConn p2pServer完成与目标节点(127.0.0.1:20130)的加密handshake!
+
+[2023-11-08 17:41:41] [info] server.go:643 dpchain/p2p/server.(*Server).setupConn 下面进行加密handshake的 checkpoint!!! ,127.0.0.1:20130 
+
+[2023-11-08 17:41:41] [warning] server.go:646 dpchain/p2p/server.(*Server).setupConn dyn dial conn a8bf0301daea77e3 127.0.0.1:20130 failed checkpoint posthandshake: Connected to self
